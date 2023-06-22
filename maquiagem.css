@@ -1,0 +1,43 @@
+#red {
+border: 2px groove #a22;
+background-color:rgb(209, 61, 61);
+width:400px;
+height:240px;
+font-size:60px;
+float:left;
+}
+
+#verdo {
+border: 2px groove rgb(12, 150, 0);
+background-color:rgb(80, 207, 80);
+ width:400px;
+ height:240px;
+ font-size:60px;
+ float:left;
+}
+
+#red:hover {
+        border: 8px solid rgb(165, 12, 12);
+        background-color:rgb(206, 0, 0);
+        width:400px;
+        height:240px;
+        transition-delay:0.08s;
+}
+        
+#verdo:hover {
+        border: 8px solid rgb(22, 141, 11);
+        background-color:rgb(8, 196, 8);
+        width:400px;
+        height:240px;
+        transition-delay:0.08s;
+}
+
+
+#aa {
+    border: 2px groove rgb(167, 167, 167);
+    background-color:rgb(255, 255, 255);
+     width:400px;
+     height:240px;
+     font-size:60px;
+     float:bottom;
+    }
