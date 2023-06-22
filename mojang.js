@@ -1,5 +1,5 @@
 var nome= (window.prompt('teu nome?'))
-
+const imagem = document.getElementById("imagem1");
          
 function changeColor(color) {
     document.body.style.background = color;
@@ -7,20 +7,19 @@ function changeColor(color) {
  
 function verdão() {
     changeColor('green');
-    el_down.innerHTML = "Background Color changed";
+
 }       
-
-
-
-function changeColor(color) {
-    document.body.style.background = color;
-}
  
 function vermei() {
     changeColor('#c11');
-    el_down.innerHTML = "Background Color changed";
 }       
 
+function reset() {
+    changeColor('#fff');
+    imagem1.src = "la2.png";
+}   
+
 function Nome() {
- window.alert('Nome completo:' + nome)
+ imagem1.src = "la1.webp";
+ window.alert('Nome completo:' + nome);
 }       
